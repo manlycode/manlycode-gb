@@ -43,15 +43,15 @@ INCLUDE "memory.inc"
 ; However, it is good practice to leave the reserved memory locations for interrupts with
 ; executable code. It make for a nice template as well to fill in code when we use interrupts
 ; in the future
-SECTION	"Vblank",HOME[$0040]
+SECTION	"Vblank",ROM0[$0040]
 	reti
-SECTION	"LCDC",HOME[$0048]
+SECTION	"LCDC",ROM0[$0048]
 	reti
-SECTION	"Timer_Overflow",HOME[$0050]
+SECTION	"Timer_Overflow",ROM0[$0050]
 	reti
-SECTION	"Serial",HOME[$0058]
+SECTION	"Serial",ROM0[$0058]
 	reti
-SECTION	"p1thru4",HOME[$0060]
+SECTION	"p1thru4",ROM0[$0060]
 	reti
 
 ;  Next we need to include the standard GameBoy ROM header
@@ -69,7 +69,7 @@ SECTION	"p1thru4",HOME[$0060]
 ; start at address $100 by using the following SECTION assembler
 ; command:
 
-SECTION	"start",HOME[$0100]
+SECTION	"start",ROM0[$0100]
     nop
     jp	begin
 

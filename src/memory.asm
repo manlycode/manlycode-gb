@@ -1,4 +1,4 @@
-SECTION "Memory1 Code",HOME
+SECTION "Memory1 Code",ROM0
 
 INCLUDE "gbhw.inc"
 
