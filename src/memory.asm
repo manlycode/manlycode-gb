@@ -1,3 +1,4 @@
+; vi: ft=z80
 SECTION "Memory1 Code",ROM0
 
 INCLUDE "gbhw.inc"

@@ -1,3 +1,4 @@
+; vi: ft=z80
 ;*
 ;* GBHW.INC - Gameboy Hardware definitions for GALP
 ;*

@@ -1,3 +1,4 @@
+; vi: ft=z80
 ;*
 ;* MEMORY.INC - Memory Manipulation Code
 ;* by GABY. Inspired by Carsten Sorensen & others.

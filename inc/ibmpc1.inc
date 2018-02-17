@@ -1,3 +1,4 @@
+; vi: ft=z80
 ;*
 ;* IBMPC1 8x8 Character Set Macros V1.2
 ;*
