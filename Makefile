@@ -23,6 +23,6 @@ $(ROM_NAME): $(OBJECTS)
 clean:
 	rm $(ROM_NAME).gb $(ROM_NAME).sym $(OBJECTS)
 
-run: hello-world.gb
+run: $(ROM_NAME)
 	/Applications/mGBA.app/Contents/MacOS/mGBA hello-world.gb
 	#/Applications/visualboyadvance-m.app/Contents/MacOS/visualboyadvance-m hello-world.gb
